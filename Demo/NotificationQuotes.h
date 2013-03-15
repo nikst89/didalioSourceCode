@@ -10,7 +10,10 @@
 #import <CoreData/CoreData.h>
 
 
-@interface NotificationQuotes : NSManagedObject
+@interface NotificationQuotes : NSManagedObject{
+    
+    //Added comment
+}
 
 @property (nonatomic, retain) NSString * quoteString;
 @property (nonatomic, retain) NSString * date;
